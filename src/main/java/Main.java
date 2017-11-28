@@ -1,3 +1,5 @@
+package xyz.kohzee;
+
 import javax.swing.*;
 public class Main{
   public static void main(String arg[]){
@@ -5,7 +7,6 @@ public class Main{
     frame.setVisible(true);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     */
-    int i = 100;
-    System.out.println(100);
+    System.out.println(IntegerReturner.testee());
   }
 }
